@@ -1,0 +1,17 @@
+COMMAND for patch pixel 6
+
+adb killserver
+adb devices
+adb reboot bootloader
+fastboot flashing unlock
+open khan2 run as a administorator from pixeltoolby aamir buneri folder
+click pixel 6 will show current imei and copy and paste as is it in new imei1 and imei2
+Then go to same in banuri ->models->pixel 6 
+
+adb killserver  ya mobile on kr k run krni
+adb devices  ya mobile on kr k run krni
+adb reboot-bootloader
+fastboot devices
+fastboot flash devinfo "E:\patch pixel 6\Pixel Tool By Aamir Buneri\models\6\devinfo.img"
+
+https://youtu.be/p3_gvSilLfw?si=y-5k-43NXaA4WPf5
